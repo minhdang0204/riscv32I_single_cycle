@@ -29,16 +29,18 @@ The processor currently supports the following instructions:
 
 ```text
 riscv32I_single_cycle/
-│── riscv_top.v
-│── program_counter.v
-│── PC_next.v
-│── Instruction_Mem.v
-│── register_file.v
-│── Control_unit.v
-│── ALU_control.v
-│── ALU.v
-│── Imm_Gen.v
-│── Data_Mem.v
-│── Mux.v
-│── tb_riscv_top.v
-│── README.md
+├── README.md
+├── src/
+│   ├── riscv_top.v
+│   ├── ALU.v
+│   ├── ALU_control.v
+│   ├── Control_unit.v
+│   ├── Data_Mem.v
+│   ├── Imm_Gen.v
+│   ├── Instruction_Mem.v
+│   ├── Mux.v
+│   ├── PC_next.v
+│   ├── program_counter.v
+│   └── register_file.v
+└── tb/
+    └── riscv_single_cycle_tb.v
