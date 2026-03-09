@@ -30,6 +30,7 @@ The processor currently supports the following instructions:
 ```text
 riscv32I_single_cycle/
 ├── README.md
+├── report
 ├── src/
 │   ├── riscv_top.v
 │   ├── ALU.v
